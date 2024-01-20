@@ -104,16 +104,9 @@
         </div>
       </div>
       <div class="text-sm text-center p-4">
-        <div>{{ `v${globalConfig.appVersion}` }}</div>
-        <div v-if="hasAnUpdateAvailable && globalConfig.displayManifest">
-          {{
-            $t('GENERAL_SETTINGS.UPDATE_CHATWOOT', {
-              latestChatwootVersion: latestChatwootVersion,
-            })
-          }}
-        </div>
+        <div>I9PRO - Inovmi Tecnologia</div>
         <div class="build-id">
-          <div>{{ `Build ${globalConfig.gitSha}` }}</div>
+          <div>Versão 3.3.1</div>
         </div>
       </div>
 
