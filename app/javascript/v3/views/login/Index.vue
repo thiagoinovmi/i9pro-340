@@ -4,13 +4,13 @@
   >
     <section class="max-w-5xl mx-auto">
       <img
-        :src="globalConfig.logo"
+        :src="https://www.inovmi.com/arq-public/logo-inovmi-1000-333.png"
         :alt="globalConfig.installationName"
         class="mx-auto h-8 w-auto block dark:hidden"
       />
       <img
         v-if="globalConfig.logoDark"
-        :src="globalConfig.logoDark"
+        :src="logo-dark-inovmi-750.png"
         :alt="globalConfig.installationName"
         class="mx-auto h-8 w-auto hidden dark:block"
       />
