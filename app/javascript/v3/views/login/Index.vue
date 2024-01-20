@@ -10,7 +10,7 @@
       />
       <img
         v-if="globalConfig.logoDark"
-        :src="logo-dark-inovmi-750.png"
+        :src="https://www.inovmi.com/arq-public/logo-dark-inovmi-750.png"
         :alt="globalConfig.installationName"
         class="mx-auto h-8 w-auto hidden dark:block"
       />
