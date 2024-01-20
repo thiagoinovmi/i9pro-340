@@ -352,6 +352,7 @@ export default {
 
       if (this.currentUserRole === 'administrator') {
         ASSIGNEE_TYPE_TAB_KEYS.all = 'allCount';
+        ASSIGNEE_TYPE_TAB_KEYS.unassigned = 'unAssignedCount';
       }
       
       return Object.keys(ASSIGNEE_TYPE_TAB_KEYS).map(key => {
