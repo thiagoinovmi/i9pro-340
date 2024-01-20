@@ -3,7 +3,7 @@
     v-if="shouldShowBanner"
     color-scheme="primary"
     :banner-message="bannerMessage"
-    href-link="https://github.com/chatwoot/chatwoot/releases"
+    href-link="https://approachti.com.br/chat"
     :href-link-text="$t('GENERAL_SETTINGS.LEARN_MORE')"
     has-close-button
     @close="dismissUpdateBanner"
@@ -41,11 +41,7 @@ export default {
     },
     shouldShowBanner() {
       return (
-        !this.userDismissedBanner &&
-        this.globalConfig.displayManifest &&
-        this.updateAvailable &&
-        !this.isVersionNotificationDismissed(this.latestChatwootVersion) &&
-        this.isAdmin
+        false
       );
     },
   },
